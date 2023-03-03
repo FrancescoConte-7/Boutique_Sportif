@@ -1,0 +1,18 @@
+footer {
+  background-color: black;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.f-link-container {
+  text-decoration: none;
+  color: white;
+}
+
+.f-link-container:hover {
+  color: red;
+}
+p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
