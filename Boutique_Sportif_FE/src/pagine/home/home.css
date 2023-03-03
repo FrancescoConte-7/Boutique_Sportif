@@ -1,4 +1,9 @@
-.homebg {
-  width: 1535px;
-  height: 572px;
+.home {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../risorse/img/sfondo_home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -142px;
 }

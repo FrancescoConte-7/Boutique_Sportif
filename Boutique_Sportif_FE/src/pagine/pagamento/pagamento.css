@@ -1,12 +1,9 @@
 .pagamento {
-  margin-left: 550px;
-}
-
-.pay {
-  margin-left: 170px;
-  margin-bottom: 15px;
-}
-
-.numcarta {
-  width: 400px;
+  max-width: 500px;
+  height: 570px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

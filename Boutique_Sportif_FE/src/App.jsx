@@ -19,10 +19,6 @@ export const App = () => {
     setCarrello((prev) => (prev = [...prev, item]));
   };
 
-  const removeFromCart = (item) => {
-    setCarrello((prev) => prev.remove(item));
-  };
-
   return (
     <>
       <Toaster
@@ -31,7 +27,9 @@ export const App = () => {
             backgroundColor: "white",
             color: "black",
             textAlign: "center",
+            margin: "6rem",
           },
+          position: "top-center",
         }}
       />
       <Router>

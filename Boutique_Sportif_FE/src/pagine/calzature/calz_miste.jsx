@@ -42,7 +42,7 @@ export const CalzatureMiste = (props) => {
           </NavDropdown.Item>
         </NavDropdown>
       </div>
-      <div className="m-5">
+      <div className="mx-5">
         <Row className=" d-flex ">
           {prodotti
             .filter((item) => {

@@ -43,7 +43,7 @@ export const AbbigliamentoMisto = (props) => {
         </NavDropdown>
       </div>
       <div className="mx-5">
-        <Row className="d-flex ">
+        <Row className="d-flex">
           {prodotti
             .filter((item) => {
               if (genere === "all") {

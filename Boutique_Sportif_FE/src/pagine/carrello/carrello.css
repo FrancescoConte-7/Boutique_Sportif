@@ -1,11 +1,21 @@
 .carrbtn {
-  margin-top: 10px;
-  margin-left: 650px;
-  margin-bottom: 10px;
+  text-align: center;
+  align-self: center;
 }
 
 .totprodotti {
-  margin-left: 600px;
-  margin-right: 650px;
+  margin: auto;
   text-align: center;
+  max-width: 300px;
+}
+
+.carrello {
+  background-color: #444140;
+  margin-top: 1rem;
+  overflow-x: hidden;
+}
+
+.carrello-footer {
+  background-color: #444140;
+  margin-top: 1rem;
 }
